@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    width: 250px;
+    text-align: center;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    background-image: url(nuotraukos/profilio%20nuotrauka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+}
+p{
+    width: 300px;
+}
+p, h1, foto, .foto{
+    margin: 0 auto;
+}
+.copy{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
